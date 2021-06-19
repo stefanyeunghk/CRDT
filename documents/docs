@@ -1,0 +1,15 @@
+Author : Yeung Kam Kwan (Stefan)
+Date: 18/06/2021
+
+This project will be focusing on the LWW-Element-Set, and I will implement it based on the structure given in
+StructureofstatebasedLWW.png (located inside documents)
+
+Code file: lww.py (located inside crdtcode)
+Test file: text_LWW.py (located inside tests)
+
+
+Requirement given:
+implement a state-based LWW-Element-Graph with test cases.
+The graph must contain functionalities to add a vertex/edge, remove a vertex/edge, check if a vertex is in the graph,
+query for all vertices connected to a vertex, find any path between two vertices, and merge with concurrent changes
+from other graph/replica.
